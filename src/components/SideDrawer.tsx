@@ -5,7 +5,6 @@ import { Image, LayoutDashboard, ListFilter, LogOut, Plane, User2, UsersIcon } f
 import Link from "next/link"
 import { useState } from "react"
 
-
 export const SideDrawerSmall = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
