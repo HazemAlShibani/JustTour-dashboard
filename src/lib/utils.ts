@@ -10,7 +10,7 @@ export function constructMetadata({
   title = 'JustTour',
   description = 'Take Your Holiday to another step',
   image = '/bg4.jpeg',
-  icons = '/favicon.ico',
+  icons = '/favicon.svg',
 }: {
   title?: string
   description?: string
