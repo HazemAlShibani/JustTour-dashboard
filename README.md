@@ -10,9 +10,9 @@ The Backend for this app is not published yet 🙁
 
 ## Technical information
 Web Application includes: <br/>
-  *Next.js* Framework <br/>
-  *Typescript* Language <br/>
-  *Tailwind CSS* for custom user interfaces <br/>
-  *radix-ui* for built-in components <br/>
-  *uploadThing* service for Uploading images <br/> 
-  *kinde* Library for Authentication Process <br/>
+  **Next.js** Framework <br/>
+  **Typescript** Language <br/>
+  **Tailwind CSS** for custom user interfaces <br/>
+  **radix-ui** for built-in components <br/>
+  **uploadThing** service for Uploading images <br/> 
+  **kinde** Library for Authentication Process <br/>
