@@ -6,7 +6,7 @@ The application aims to promote responsible tourism in Syria, supporting local c
 click on the Link to see the Landing Page and Admin Dashboard
 [JustTour](https://just-tour.vercel.app)
 
-Note: The Admin Dashboard contains Dummy Data, So u could not create, add, or Upadate a site or team on the System.
+Note: The Admin Dashboard contains Dummy Data, So u could not create, add, or Upadate a site or team on the System. <br/>
 The Backend for this app is not published yet 🙁
 
 ## Technical information
