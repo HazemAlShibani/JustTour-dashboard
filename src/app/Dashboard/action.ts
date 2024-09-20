@@ -279,7 +279,7 @@ export async function getTeamsData() {
     Followers: 550,
   },
     {
-    team_id: 3,
+    team_id: 2,
     TeamName: "Amoaj",
     Email: "Amoaj@gmail.com",
     Description: "Travel teams in Syria face significant logistical challenges when organizing trips to various locations across the country. They must navigate complex security situations, coordinate with local guides and tour operators, and manage the intricacies of traveling in a region with ongoing conflicts. Despite these difficulties, experienced travel coordinators in Syria work tirelessly to plan memorable journeys for visitors, balancing safety concerns with the desire to showcase the country's rich cultural heritage sites and natural wonders.",
@@ -290,7 +290,7 @@ export async function getTeamsData() {
     Followers: 50,
   },
     {
-    team_id: 4,
+    team_id: 3,
     TeamName: "bladna",
     Email: "bladna@gmail.com",
     Description: "Welcome, our team is offering a lot of trips to the most beautiful places in Syria.",
@@ -360,7 +360,7 @@ export async function getTeam(teamId : number) {
     trips: []
   },
     {
-    team_id: 3,
+    team_id: 2,
     TeamName: "Amoaj",
     Email: "Amoaj@gmail.com",
     Description: "Travel teams in Syria face significant logistical challenges when organizing trips to various locations across the country. They must navigate complex security situations, coordinate with local guides and tour operators, and manage the intricacies of traveling in a region with ongoing conflicts. Despite these difficulties, experienced travel coordinators in Syria work tirelessly to plan memorable journeys for visitors, balancing safety concerns with the desire to showcase the country's rich cultural heritage sites and natural wonders.",
@@ -372,7 +372,7 @@ export async function getTeam(teamId : number) {
     trips: []
   },
     {
-    team_id: 4,
+    team_id: 3,
     TeamName: "bladna",
     Email: "bladna@gmail.com",
     Description: "Welcome, our team is offering a lot of trips to the most beautiful places in Syria.",
