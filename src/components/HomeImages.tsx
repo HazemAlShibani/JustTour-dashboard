@@ -15,7 +15,7 @@ const HomeImages = ({images}: {images: imagesHome}) => {
                 setImage(1)
             } 
             
-        }, 4000);
+        }, 7000);
 
         return () => clearTimeout(time);
     })

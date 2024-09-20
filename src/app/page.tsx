@@ -241,7 +241,7 @@ export default async function Home() {
           </ul>
         </div>
 
-        <div className="pb-8">Logo Application &copy; {currentYear}</div>
+        <div className="pb-8">JustTour Application &copy; {currentYear}</div>
       </div>
 
     </>

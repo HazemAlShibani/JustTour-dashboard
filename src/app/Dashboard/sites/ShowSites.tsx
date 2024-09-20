@@ -26,11 +26,11 @@ const ShowSites = ({data}: {data : sites}) => {
             </Button>
         </Link>
     </div>
-    <div className="w-full h-full flex gap-2 flex-wrap xsm:justify-center">
+    <div className="w-full h-full flex gap-2 flex-wrap xsm:justify-center xsm:contents">
         {
             dataSites?.map((ele, id) => (
                     <Link className="h-fit" key={id} href={`/Dashboard/sites/${ele.id}`}>
-                <div  className="flex flex-col pb-2 gap-2 w-40 h-44 bg-slate-200 rounded-sm overflow-hidden hover:cursor-pointer">
+                <div  className="flex flex-col pb-2 gap-2 w-40 h-44 xsm:w-full xsm:h-56 bg-slate-200 rounded-sm overflow-hidden hover:cursor-pointer">
                         <img src={ele.MainPhoto} className="w-full h-[80%]" />
                         <p className="text-center font-semibold">{ele.SiteName}</p>
             </div>

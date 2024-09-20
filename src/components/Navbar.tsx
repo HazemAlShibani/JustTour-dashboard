@@ -1,6 +1,7 @@
 "use client"
 
 import { cn } from "@/lib/utils";
+import { Blinds } from "lucide-react";
 import { useEffect, useState } from "react"
 
 const Navbar = () => {
@@ -61,7 +62,7 @@ const Navbar = () => {
         }
         {
             isOnMobile ?
-                <div className="ml-4 hover:cursor-pointer" onClick={() => setIsOpenSideDrawer(true)}>Logo</div> :
+                <div className="ml-4 hover:cursor-pointer" onClick={() => setIsOpenSideDrawer(true)}><Blinds className="w-7 h-7"/></div> :
                 <div className="ml-4">Just<span className="text-teal-500">Tour</span></div>
         }
         <nav className="sm:hidden">
