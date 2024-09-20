@@ -10,12 +10,10 @@ export function constructMetadata({
   title = 'JustTour',
   description = 'Take Your Holiday to another step',
   image = '/bg4.jpeg',
-  icons = '/favicon.svg',
 }: {
   title?: string
   description?: string
   image?: string
-  icons?: string
 } = {}): Metadata {
   return {
     title,
@@ -25,7 +23,6 @@ export function constructMetadata({
       description,
       images: [{ url: image }],
     },
-    icons,
     metadataBase: new URL("https://just-tour.vercel.app/")
   }
 }
